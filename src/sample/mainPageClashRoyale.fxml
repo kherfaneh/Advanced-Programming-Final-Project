@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="732.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMainPageClashRoyal">
+
+    <children>
+        <Pane layoutX="-3.0" prefHeight="675.0" prefWidth="506.0">
+            <children>
+
+                <ImageView fitHeight="795.0" fitWidth="506.0" layoutX="3.0" layoutY="1.0" pickOnBounds="true">
+
+                    <image>
+                        <Image url="@Game Home.jpg" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="battleDeck" fitHeight="110.0" fitWidth="95.0" layoutX="211.0" layoutY="558.0" onMousePressed="#BattleDeck" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@card.gif" />
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="33.0" fitWidth="131.0" layoutX="191.0" layoutY="643.0" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@CardName.png" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="profile" fitHeight="88.0" fitWidth="88.0" layoutX="313.0" layoutY="628.0" onMousePressed="#Profile" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@profile-gif-Res.gif" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="trainingCamp" fitHeight="80.0" fitWidth="112.0" layoutX="96.0" layoutY="626.0" onMousePressed="#TrainingCamp" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@but-gif1.gif" />
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="26.0" fitWidth="114.0" layoutX="96.0" layoutY="696.0" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@ButName.png" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="oneVoneTwoVtwo" fitHeight="99.0" fitWidth="182.0" layoutX="-30.0" layoutY="594.0" onMousePressed="#OneVoneTwoVtwo" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@1v1-2v2-gif.gif" />
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="26.0" fitWidth="105.0" layoutX="5.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@1v1-2v2.png" />
+                    </image>
+                </ImageView>
+
+                <ImageView fx:id="buttleHistory" fitHeight="88.0" fitWidth="91.0" layoutX="400.0" layoutY="598.0" onMousePressed="#ButtleHistory" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@ResGifHistoryGame.gif" />
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="26.0" fitWidth="105.0" layoutX="391.0" layoutY="664.0" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@HistoryGameName.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="67.0" fitWidth="176.0" layoutX="295.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@lable clash royale.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="75.0" fitWidth="45.0" layoutX="353.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cloud chat.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="75.0" fitWidth="45.0" layoutX="304.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cloud chat.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="75.0" fitWidth="45.0" layoutX="227.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cloud chat.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="75.0" fitWidth="45.0" layoutX="86.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cloud chat.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="75.0" fitWidth="45.0" layoutX="108.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cloud chat.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="46.0" fitWidth="59.0" layoutX="346.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@11.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="52.0" fitWidth="65.0" layoutX="299.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@22.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="46.0" fitWidth="59.0" layoutX="220.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@33.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="46.0" fitWidth="59.0" layoutX="101.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@44.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="46.0" fitWidth="59.0" layoutX="79.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@55.png" />
+                    </image>
+                </ImageView>
+
+                <ImageView fitHeight="24.0" fitWidth="105.0" layoutX="305.0" layoutY="698.0" pickOnBounds="true" preserveRatio="true">
+
+                    <image>
+                        <Image url="@ProfileName.png" />
+                    </image>
+                </ImageView>
+            <ImageView fx:id="Exist" fitHeight="39.0" fitWidth="45.0" layoutX="19.0" layoutY="17.0" onMousePressed="#Exist" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@no(exit).png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

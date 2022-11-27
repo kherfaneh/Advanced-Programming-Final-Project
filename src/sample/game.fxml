@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<!--<?import sample.ClashRoyaleView?>-->
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="500.0" pickOnBounds="true">
+         <image>
+            <Image url="@main.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="time" layoutX="364.0" prefHeight="36.0" prefWidth="136.0" style="-fx-background-color: #faf4f4;" text="Label" textAlignment="CENTER" textFill="#faf4f4">
+         <font>
+            <Font name="DecoType Naskh Variants" size="18.0" />
+         </font></Label>
+      <HBox layoutY="720.0" prefHeight="80.0" prefWidth="500.0">
+         <children>
+            <ImageView fitHeight="33.0" fitWidth="34.0" layoutX="10.0" layoutY="10.0" onMousePressed="#Play" pickOnBounds="true" translateX="120.0" translateY="15.0">
+               <image>
+                  <Image url="@ok.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im1" fitHeight="68.0" fitWidth="53.0" layoutX="64.0" layoutY="10.0" onMousePressed="#select" pickOnBounds="true" translateX="180.0" translateY="10.0">
+               <image>
+                  <Image url="@archers.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im2" fitHeight="68.0" fitWidth="53.0" layoutX="130.0" layoutY="10.0" onMousePressed="#select" pickOnBounds="true" translateX="200.0" translateY="10.0">
+               <image>
+                  <Image url="@baby-dragon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im3" fitHeight="68.0" fitWidth="53.0" layoutX="171.0" layoutY="10.0" onMousePressed="#select" pickOnBounds="true" translateX="220.0" translateY="10.0">
+               <image>
+                  <Image url="@BarbariansCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="im4" fitHeight="68.0" fitWidth="53.0" layoutX="224.0" layoutY="10.0" onMousePressed="#select" pickOnBounds="true" translateX="240.0" translateY="10.0">
+               <image>
+                  <Image url="@GiantCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="68.0" fitWidth="53.0" layoutX="79.0" layoutY="10.0" pickOnBounds="true" translateX="-250.0" translateY="10.0">
+               <image>
+                  <Image url="@dow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="68.0" fitWidth="53.0" layoutX="293.0" layoutY="10.0" pickOnBounds="true" translateX="-240.0" translateY="10.0">
+               <image>
+                  <Image url="@Hourglass.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="34.0" layoutX="10.0" layoutY="10.0" onMousePressed="#Stop" pickOnBounds="true" translateX="-200.0" translateY="15.0">
+               <image>
+                  <Image url="@no(exit).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="exilir" prefHeight="36.0" prefWidth="42.0" text="6" textFill="#cc1a1a" translateX="-380.0" translateY="25.0">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+<!--      <HBox prefHeight="727.0" prefWidth="500.0" >-->
+<!--         <children>-->
+<!--            <ClashRoyaleView fx:id="clashRoyaleView" rowCount="23" columnCount="18" />-->
+<!--         </children>-->
+<!--      </HBox>-->
+   </children>
+</Pane>
